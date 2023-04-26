@@ -1,0 +1,182 @@
+2023-03-06 11:13:32.907 -03 [1936] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2023-03-06 11:13:32.910 -03 [1936] LOG:  listening on IPv6 address "::1", port 5432
+2023-03-06 11:13:32.910 -03 [1936] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-06 11:13:33.103 -03 [7284] LOG:  database system was shut down at 2023-03-06 11:12:13 -03
+2023-03-06 11:13:33.984 -03 [1936] LOG:  database system is ready to accept connections
+2023-03-06 11:24:20.138 -03 [1936] LOG:  received fast shutdown request
+2023-03-06 11:24:20.138 -03 [13584] ERROR:  canceling statement due to user request
+2023-03-06 11:24:20.141 -03 [1936] LOG:  aborting any active transactions
+2023-03-06 11:24:20.155 -03 [1936] LOG:  background worker "logical replication launcher" (PID 13584) exited with exit code 1
+2023-03-06 11:24:20.174 -03 [14944] LOG:  shutting down
+2023-03-06 11:24:20.223 -03 [1936] LOG:  database system is shut down
+2023-03-12 02:17:15.129 -03 [14988] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2023-03-12 02:17:15.131 -03 [14988] LOG:  listening on IPv6 address "::1", port 5432
+2023-03-12 02:17:15.131 -03 [14988] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-12 02:17:15.330 -03 [18344] LOG:  database system was shut down at 2023-03-12 02:16:02 -03
+2023-03-12 02:17:16.199 -03 [14988] LOG:  database system is ready to accept connections
+2023-03-12 02:27:56.561 -03 [16532] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-12 02:29:57.319 -03 [19576] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-12 02:30:07.637 -03 [18368] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-12 02:32:53.798 -03 [19508] FATAL:  database "bd_new" does not exist
+2023-03-12 02:33:14.205 -03 [18156] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-12 10:31:25.548 -03 [16864] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-12 10:38:54.271 -03 [6172] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-12 10:39:35.411 -03 [9556] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-12 10:42:42.882 -03 [9836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-12 11:16:20.707 -03 [28488] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-12 11:29:26.976 -03 [21360] ERROR:  must be member of role "cbeteou"
+2023-03-12 11:29:26.976 -03 [21360] STATEMENT:  ALTER DATABASE new_bd OWNER TO cbeteou;
+2023-03-12 11:33:25.095 -03 [25336] FATAL:  role "sorcier" does not exist
+2023-03-12 11:39:11.090 -03 [21200] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-12 11:39:18.874 -03 [21836] FATAL:  role "user" is not permitted to log in
+2023-03-12 11:40:09.361 -03 [21448] FATAL:  role "user" is not permitted to log in
+2023-03-12 11:41:27.565 -03 [22588] ERROR:  permission denied for table django_migrations
+2023-03-12 11:41:27.565 -03 [22588] STATEMENT:  SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+2023-03-12 11:42:57.362 -03 [27064] ERROR:  permission denied for table django_migrations
+2023-03-12 11:42:57.362 -03 [27064] STATEMENT:  SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+2023-03-12 11:43:37.749 -03 [23720] FATAL:  role "user" is not permitted to log in
+2023-03-12 11:46:32.266 -03 [19840] ERROR:  permission denied for table django_migrations
+2023-03-12 11:46:32.266 -03 [19840] STATEMENT:  SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+2023-03-12 11:56:55.881 -03 [27196] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-12 12:01:14.134 -03 [21940] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-13 14:44:21.686 -03 [24304] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-13 15:17:42.183 -03 [17344] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-13 15:37:28.638 -03 [36364] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-13 15:37:33.788 -03 [39964] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-14 21:17:57.284 -03 [36188] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2023-03-16 16:44:48.108 -03 [3832] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2023-03-16 16:44:48.111 -03 [3832] LOG:  listening on IPv6 address "::1", port 5432
+2023-03-16 16:44:48.111 -03 [3832] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-16 16:44:48.215 -03 [12028] LOG:  database system was shut down at 2023-03-16 16:44:23 -03
+2023-03-16 16:44:48.542 -03 [3832] LOG:  database system is ready to accept connections
+2023-03-16 16:45:56.834 -03 [876] FATAL:  role "toto" does not exist
+2023-03-16 16:46:03.488 -03 [20612] FATAL:  role "toto" does not exist
+2023-03-16 16:46:10.423 -03 [21660] FATAL:  role "toto" does not exist
+2023-03-16 16:46:22.253 -03 [17564] FATAL:  role "toto" does not exist
+2023-03-16 16:46:28.337 -03 [9564] FATAL:  role "toto" does not exist
+2023-03-16 16:46:48.352 -03 [5992] FATAL:  role "toto" does not exist
+2023-03-16 16:46:54.006 -03 [23304] FATAL:  role "toto" does not exist
+2023-03-16 16:47:06.757 -03 [17556] ERROR:  canceling statement due to user request
+2023-03-16 16:47:06.757 -03 [3024] ERROR:  canceling statement due to user request
+2023-03-16 16:47:06.757 -03 [3832] LOG:  received fast shutdown request
+2023-03-16 16:47:06.761 -03 [3832] LOG:  aborting any active transactions
+2023-03-16 16:47:06.766 -03 [3832] LOG:  background worker "logical replication launcher" (PID 17556) exited with exit code 1
+2023-03-16 16:47:06.782 -03 [12700] LOG:  shutting down
+2023-03-16 16:47:06.815 -03 [3832] LOG:  database system is shut down
+2023-03-16 16:49:39.215 -03 [20968] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2023-03-16 16:49:39.218 -03 [20968] LOG:  listening on IPv6 address "::1", port 5432
+2023-03-16 16:49:39.218 -03 [20968] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-16 16:49:39.337 -03 [12380] LOG:  database system was shut down at 2023-03-16 16:47:06 -03
+2023-03-16 16:49:39.704 -03 [20968] LOG:  database system is ready to accept connections
+2023-03-16 16:52:02.421 -03 [21380] ERROR:  role "mynonsuperuser" does not exist
+2023-03-16 16:52:02.421 -03 [21380] STATEMENT:  CREATE DATABASE "bd_Medecin_1" OWNER mynonsuperuser;
+2023-03-16 16:53:33.585 -03 [1328] ERROR:  canceling statement due to user request
+2023-03-16 16:53:33.587 -03 [20968] LOG:  received fast shutdown request
+2023-03-16 16:53:33.591 -03 [20968] LOG:  aborting any active transactions
+2023-03-16 16:53:33.593 -03 [20968] LOG:  background worker "logical replication launcher" (PID 1328) exited with exit code 1
+2023-03-16 16:53:33.595 -03 [20924] LOG:  shutting down
+2023-03-16 16:53:33.618 -03 [20968] LOG:  database system is shut down
+2023-03-16 17:11:05.387 -03 [22648] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2023-03-16 17:11:05.389 -03 [22648] LOG:  listening on IPv6 address "::1", port 5432
+2023-03-16 17:11:05.389 -03 [22648] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-03-16 17:11:05.505 -03 [12992] LOG:  database system was shut down at 2023-03-16 16:53:33 -03
+2023-03-16 17:11:05.866 -03 [22648] LOG:  database system is ready to accept connections
+2023-03-16 17:11:14.698 -03 [22648] LOG:  received fast shutdown request
+2023-03-16 17:11:14.701 -03 [22648] LOG:  aborting any active transactions
+2023-03-16 17:11:14.705 -03 [22648] LOG:  background worker "logical replication launcher" (PID 17872) exited with exit code 1
+2023-03-16 17:11:14.706 -03 [23268] LOG:  shutting down
+2023-03-16 17:11:14.727 -03 [22648] LOG:  database system is shut down
+2023-04-25 00:15:18.655 -03 [28120] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2023-04-25 00:15:18.658 -03 [28120] LOG:  listening on IPv6 address "::1", port 5432
+2023-04-25 00:15:18.658 -03 [28120] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-04-25 00:15:18.744 -03 [28548] LOG:  database system was shut down at 2023-04-25 00:11:03 -03
+2023-04-25 00:15:18.873 -03 [28120] LOG:  database system is ready to accept connections
+2023-04-25 00:29:56.847 -03 [28120] LOG:  received fast shutdown request
+2023-04-25 00:29:56.848 -03 [25720] ERROR:  canceling statement due to user request
+2023-04-25 00:29:56.851 -03 [28120] LOG:  aborting any active transactions
+2023-04-25 00:29:56.854 -03 [28120] LOG:  background worker "logical replication launcher" (PID 25720) exited with exit code 1
+2023-04-25 00:29:56.857 -03 [18348] LOG:  shutting down
+2023-04-25 00:29:56.877 -03 [28120] LOG:  database system is shut down
+2023-04-25 00:30:04.869 -03 [26256] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2023-04-25 00:30:04.873 -03 [26256] LOG:  listening on IPv6 address "::1", port 5432
+2023-04-25 00:30:04.873 -03 [26256] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-04-25 00:30:04.957 -03 [26012] LOG:  database system was shut down at 2023-04-25 00:29:56 -03
+2023-04-25 00:30:05.100 -03 [26256] LOG:  database system is ready to accept connections
+2023-04-25 00:39:58.656 -03 [26256] LOG:  received fast shutdown request
+2023-04-25 00:39:58.660 -03 [26256] LOG:  aborting any active transactions
+2023-04-25 00:39:58.665 -03 [26256] LOG:  background worker "logical replication launcher" (PID 21804) exited with exit code 1
+2023-04-25 00:39:58.666 -03 [26788] LOG:  shutting down
+2023-04-25 00:39:58.692 -03 [26256] LOG:  database system is shut down
+2023-04-25 00:40:10.258 -03 [22856] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2023-04-25 00:40:10.261 -03 [22856] LOG:  listening on IPv6 address "::1", port 5432
+2023-04-25 00:40:10.261 -03 [22856] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-04-25 00:40:10.342 -03 [11124] LOG:  database system was shut down at 2023-04-25 00:39:58 -03
+2023-04-25 00:40:10.485 -03 [22856] LOG:  database system is ready to accept connections
+2023-04-25 00:47:51.082 -03 [3752] ERROR:  database "bd_medecin" already exists
+2023-04-25 00:47:51.082 -03 [3752] STATEMENT:  CREATE DATABASE bd_medecin OWNER toto;
+2023-04-25 01:13:43.243 -03 [27744] LOG:  invalid length of startup packet
+2023-04-25 01:13:43.268 -03 [22620] LOG:  invalid length of startup packet
+2023-04-25 01:13:43.364 -03 [13108] LOG:  invalid length of startup packet
+2023-04-25 01:13:44.530 -03 [21092] LOG:  invalid length of startup packet
+2023-04-25 01:13:44.561 -03 [26312] LOG:  invalid length of startup packet
+2023-04-25 01:13:44.658 -03 [16068] LOG:  invalid length of startup packet
+2023-04-25 01:13:49.805 -03 [1248] LOG:  invalid length of startup packet
+2023-04-25 01:13:49.833 -03 [24480] LOG:  invalid length of startup packet
+2023-04-25 01:13:49.929 -03 [27168] LOG:  invalid length of startup packet
+2023-04-25 01:20:12.990 -03 [22856] LOG:  received fast shutdown request
+2023-04-25 01:20:12.994 -03 [22856] LOG:  aborting any active transactions
+2023-04-25 01:20:13.002 -03 [22856] LOG:  background worker "logical replication launcher" (PID 15996) exited with exit code 1
+2023-04-25 01:20:13.003 -03 [25940] LOG:  shutting down
+2023-04-25 01:20:13.040 -03 [22856] LOG:  database system is shut down
+2023-04-25 01:32:35.369 -03 [1172] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2023-04-25 01:32:35.373 -03 [1172] LOG:  listening on IPv6 address "::1", port 5432
+2023-04-25 01:32:35.373 -03 [1172] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-04-25 01:32:35.474 -03 [4180] LOG:  database system was shut down at 2023-04-25 01:25:19 -03
+2023-04-25 01:32:35.695 -03 [1172] LOG:  database system is ready to accept connections
+2023-04-25 01:43:25.133 -03 [1172] LOG:  received fast shutdown request
+2023-04-25 01:43:25.133 -03 [24384] ERROR:  canceling statement due to user request
+2023-04-25 01:43:25.135 -03 [1172] LOG:  aborting any active transactions
+2023-04-25 01:43:25.141 -03 [1172] LOG:  background worker "logical replication launcher" (PID 24384) exited with exit code 1
+2023-04-25 01:43:25.145 -03 [15024] LOG:  shutting down
+2023-04-25 01:43:25.181 -03 [1172] LOG:  database system is shut down
+2023-04-25 01:45:10.304 -03 [6028] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2023-04-25 01:45:10.308 -03 [6028] LOG:  listening on IPv6 address "::1", port 5432
+2023-04-25 01:45:10.308 -03 [6028] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-04-25 01:45:10.449 -03 [29136] LOG:  database system was shut down at 2023-04-25 01:43:25 -03
+2023-04-25 01:45:10.694 -03 [6028] LOG:  database system is ready to accept connections
+2023-04-25 01:46:31.241 -03 [6028] LOG:  received fast shutdown request
+2023-04-25 01:46:31.244 -03 [6028] LOG:  aborting any active transactions
+2023-04-25 01:46:31.251 -03 [6028] LOG:  background worker "logical replication launcher" (PID 5764) exited with exit code 1
+2023-04-25 01:46:31.252 -03 [24180] LOG:  shutting down
+2023-04-25 01:46:31.291 -03 [6028] LOG:  database system is shut down
+2023-04-25 01:47:03.561 -03 [29624] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1916, 64-bit
+2023-04-25 01:47:03.565 -03 [29624] LOG:  listening on IPv6 address "::1", port 5432
+2023-04-25 01:47:03.565 -03 [29624] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-04-25 01:47:03.676 -03 [25668] LOG:  database system was shut down at 2023-04-25 01:46:31 -03
+2023-04-25 01:47:03.916 -03 [29624] LOG:  database system is ready to accept connections
+2023-04-25 01:47:12.275 -03 [21076] ERROR:  database "bd_medecin" already exists
+2023-04-25 01:47:12.275 -03 [21076] STATEMENT:  CREATE DATABASE bd_medecin OWNER toto;
+2023-04-25 02:25:27.345 -03 [10876] FATAL:  database "bd_Medecin" does not exist
+2023-04-25 11:00:43.460 -03 [29624] LOG:  received fast shutdown request
+2023-04-25 11:00:43.464 -03 [29624] LOG:  aborting any active transactions
+2023-04-25 11:00:43.465 -03 [17280] FATAL:  terminating connection due to administrator command
+2023-04-25 11:00:43.477 -03 [29624] LOG:  background worker "logical replication launcher" (PID 12800) exited with exit code 1
+2023-04-25 11:00:43.484 -03 [68] LOG:  shutting down
+2023-04-25 11:00:43.532 -03 [29624] LOG:  database system is shut down
